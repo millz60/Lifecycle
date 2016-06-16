@@ -24,4 +24,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    
+}
+
+-(void)viewDidDisappear:(BOOL)animated{
+    
+}
+
+-(void)viewDidUnload:(BOOL)animated{
+    
+}
+
+-(void)viewWillUnload:(BOOL)animated{
+
+}
+
 @end
