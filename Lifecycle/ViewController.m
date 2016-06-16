@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
@@ -25,27 +26,27 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-    
+    NSLog(@"viewDidAppear: EXECUTED");
 }
 
 -(void)viewWillAppear:(BOOL)animated{
-    
+    NSLog(@"viewWillAppear: EXECUTED");
 }
 
 -(void)viewWillDisappear:(BOOL)animated{
-    
+    NSLog(@"viewWillDisappear: EXECUTED");
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
-    
+    NSLog(@"viewDidDisappear: EXECUTED");
 }
 
 -(void)viewDidUnload:(BOOL)animated{
-    
+    NSLog(@"viewDidUnload: EXECUTED");
 }
 
 -(void)viewWillUnload:(BOOL)animated{
-
+    NSLog(@"viewWillUnload: EXECUTED");
 }
 
 @end
